@@ -11,10 +11,7 @@
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 #export COMMANDLINE_ARGS=""
-
-# python3 executable
-#python_cmd="python3"
-
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --precision full --no-half --allow-code   --lowvram  --disable-safe-unpickle  --no-half-vae --api --opt-split-attention --opt-channelslast --gradio-queue"
 # git executable
 #export GIT="git"
 
